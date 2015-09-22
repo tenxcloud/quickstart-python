@@ -8,6 +8,7 @@ redis = Redis(host="redis", db=0, password=os.environ.get('REDIS_ENV_REDIS_PASS'
 
 app = Flask(__name__)
 
+# tests II
 
 @app.route("/")
 def hello():
