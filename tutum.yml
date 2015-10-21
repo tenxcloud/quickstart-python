@@ -1,10 +1,10 @@
 web:
-  image: tutum/quickstart-python
+  image: tenxcloud/quickstart-python
   links:
-    - "redis:redis"
+    - "redis"
   ports:
-    - "5000:80"
+    - "5000"
 redis:
-  image: tutum/redis
+  image: tenxcloud/redis
   environment:
     - REDIS_PASS=password
